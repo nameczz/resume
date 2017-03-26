@@ -1,0 +1,183 @@
+{
+  "czz": {
+    "email": "nameczz@126.com",
+    "phone": 13761820716,
+    "github": "https://github.com/nameczz",
+    "description": [
+      "姓名：陈子昭",
+      "学历：本科",
+      "年龄：26",
+      "专业：工业设计"
+    ],
+    "works": [
+      {
+        "website": "https://github.com/nameczz",
+        "description": "2048"
+      },
+      {
+        "website": "https://github.com/nameczz",
+        "description": "Vue饿了吗"
+      },
+      {
+        "website": "https://github.com/nameczz",
+        "description": "自制简历网站"
+      },
+      {
+        "website": "https://github.com/nameczz",
+        "description": "植物大战僵尸"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Vue",
+        "value": 78
+      },
+      {
+        "name": "Javascript",
+        "value": 78
+      },
+      {
+        "name": "Jquery",
+        "value": 75
+      },
+      {
+        "name": "HTML/CSS",
+        "value": 80
+      },
+      {
+        "name": "HTML5/CSS3",
+        "value": 70
+      },
+      {
+        "name": "PhotoShop",
+        "value": 60
+      }
+    ],
+    "titles": [
+      {
+        "type": 0,
+        "desc": "JS-植物大战僵尸",
+        "github": "https://github.com/nameczz/zombie"
+      },
+      {
+        "type": 1,
+        "desc": "Vue-webApp饿了吗",
+        "github": "https://github.com/nameczz/Vue1.x-sell.app"
+      },
+      {
+        "type": 0,
+        "desc": "Vue-个人简历网站",
+        "github": "https://github.com/nameczz/resume"
+      }
+    ],
+    "details": {
+      "zombie": {
+        "skills": [
+          {
+            "name": "Javascript",
+            "value": 78
+          },
+          {
+            "name": "HTML/css",
+            "value": 80
+          },
+          {
+            "name": "HTML5/CSS3",
+            "value": 70
+          }
+        ],
+        "desc": [
+          "在这个项目中只使用了HTML/CSS,Javascript,帮助我更深入理解原生Js的一些方法",
+          "运用了构造函数和prototype,给对象添加了共有属性和方法",
+          "理解JS中动画的运行基础是setTimeout,setInterval",
+          "对removeChild,appendChild,offsetLeft, oncontextmenu....等一些原生属性方法加深了印象 ",
+          "理解对象的概念，创建了plant和zombie——2个对象"
+        ]
+      },
+      "game": {
+        "skills": [
+          {
+            "name": "Javascript",
+            "value": 78
+          },
+          {
+            "name": "HTML/css",
+            "value": 80
+          },
+          {
+            "name": "Jquery",
+            "value": 75
+          }
+        ],
+        "desc": [
+          "在这个项目中使用了Jquery,Javascript,HTML/css",
+          "$.fn.xxx的概念：$.fn是指jquery的命名空间，加上fn上的方法及属性，会对jquery实例每一个有效",
+          "$.extend({},defaultconfig,config)的作用",
+          "在游戏中,若上下左右按键按的太快,动画会跟不上节奏,最后用时间间隔的限制解决",
+          "可以在自定义JQ函数内,定义defaultConfig中定义初始CSS状态,项目中要用的从其中调用,方便维护",
+          "所有自定义的JQ对象加上$符号,方便区分"
+          
+        ]
+      },
+      "elma": {
+        "skills": [
+          {
+            "name": "Vue",
+            "value": 78
+          },
+          {
+            "name": "HTML/css",
+            "value": 80
+          },
+          {
+            "name": "HTML5/css3",
+            "value": 70
+          }
+        ],
+        "desc": [
+          "在这个项目中学习使用了许多内容：V-resource,V-Router,Vue-cli,Vue.js,stylus等。",
+          "Vue.js的数据驱动、组件化等特性都令我耳目一新,Vue-cli帮我们完成了目录结构,本地调试,代码部署等任务,基本只需在src目录下进行开发即可。",
+          "在data.json中mork数据,在express中定义路由、接口,然后在项目中用vue-resource进行ajax通信。",
+          "理解Vue的生命周期created,mounted,updated等各有什么作用,transition动画:利用CSS动画/过渡,JS钩子函数进行动画。 ",
+          "stylus:CSS预处理器的强大,在mixin.styl中定义函数并重复使用,可以使用变量,&符号选择器等等; eslint 也使我的代码风格更加规范。",
+          "sticky footer布局,Flex布局,去掉多个inline-block间元素的留白,webapp-dpr的概念。"
+        ]
+      },
+      "resume": {
+        "skills": [
+          {
+            "name": "Vue",
+            "value": 78
+          },
+          {
+            "name": "HTML/css",
+            "value": 80
+          },
+          {
+            "name": "HTML5/css3",
+            "value": 70
+          }
+        ],
+        "desc": [
+          "在这个项目中学习使用了：V-resource,Vue-cli,Vue.js,stylus。",
+          "有次把点击事件直接绑定在了组件标签上无效,才知道Vue中事件不可直接绑定在组件上",
+          "子组件通过$emit(xx)上传给父组件内容,父组件通过v-on:xx接受内容",
+          "canvas的运用,制作小动画,用top:-100%覆盖到父集的页面 ",
+          "在avatar中用transform和position解决了垂直居中的问题",
+          "搭建个人网站，链接域名时，一开始用get方法，报错无法读取到后台的数据，改成用jsonp方法解决了跨域，调试工具中Network也读取到了数据，但是报错，最后通过后台多次配置才解决。"
+        ]
+      }
+    },
+    "texts": [
+      "自学能力强，适应能力快，善于沟通，能很好的与美术后台对接。",
+      "长期研究，学习新的前端新技术，并关注后台，美术等相关内容。",
+      "擅于沟通、团队合作",
+      "熟练掌握 Html5/CSS3/Javascript 开发技术, 有ES6、Vue实践经验",
+      "熟练掌握Jquery",
+      "熟练使用stylus前端预编译工具",
+      "熟练使用Vue.js/Vue-cli前端框架",
+      "熟悉CSS、HTML等浏览器的样式开发，实现产品所需的动画效果以及交互效果",
+      "P.S.是一个很好沟通，脾气好的人。：）"
+    ]
+  }
+}

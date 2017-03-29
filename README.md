@@ -14,4 +14,6 @@ npm run dev
 # build for production with minification
 npm run build
 
-```个人简历网站域名：www.sanyoumu.com
+```
+
+## 个人简历网站域名：www.sanyoumu.com
